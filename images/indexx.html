@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Image Examples</title>
+</head>
+
+<body>
+
+    <h1>HTML Image Examples</h1>
+
+
+    <!-- 1. Image -->
+    <h2>1. Image from Images Folder</h2>
+
+    <img src="../images/flower.jpeg"
+         alt="Beautiful flower"
+         width="300">
+
+
+    <!-- 2. Logo from Images Folder -->
+    <h2>2. Image from Images Folder</h2>
+
+    <img src="../images/logo.png"
+         alt="Website logo"
+         width="200">
+
+
+    <!-- 3. Banner Image -->
+    <h2>3. Banner Image</h2>
+
+    <img src="../images/banner.jpeg"
+         alt="Website banner"
+         width="500">
+
+
+    <!-- 4. Image from Root Folder -->
+    <!-- Your current project does not have photo.jpg,
+         so we use an image that actually exists. -->
+
+    <h2>4. Image from Root Folder</h2>
+
+    <img src="../images/cg img.png"
+         alt="Coding Gita image"
+         width="300">
+
+
+    <!-- 5. Image with Width and Height -->
+    <h2>5. Image with Width and Height</h2>
+
+    <img src="../images/nature.jpeg"
+         alt="Beautiful nature view"
+         width="300"
+         height="200">
+
+
+    <!-- 6. Image with Title -->
+    <h2>6. Image with Title</h2>
+
+    <img src="../images/flower.jpeg"
+         alt="Beautiful flower"
+         title="Click to view full size"
+         width="300">
+
+
+    <!-- 7. Lazy Loading -->
+    <h2>7. Lazy Loading Image</h2>
+
+    <img src="../images/nature.jpeg"
+         alt="Beautiful nature view"
+         loading="lazy"
+         width="300">
+
+
+    <!-- 8. Eager Loading -->
+    <h2>8. Eager Loading Hero Image</h2>
+
+    <img src="../images/banner.jpeg"
+         alt="Website hero banner"
+         loading="eager"
+         width="600">
+
+
+    <!-- 9. Auto Loading -->
+    <h2>9. Auto Loading Image</h2>
+
+    <img src="../images/cg img.png"
+         alt="Coding Gita"
+         loading="auto"
+         width="300">
+
+    <p>
+        The browser decides whether the image should load immediately
+        or lazily.
+    </p>
+
+
+    <!-- 10. Responsive Image using srcset -->
+    <h2>10. Responsive Image</h2>
+
+    <img src="../images/codinggita_800x800.png"
+         srcset="../images/CodingGita_400x400.png 400w,
+                 ../images/codinggita_800x800.png 800w,
+                 ../images/codinggita_1200x900.png 1200w"
+         alt="Coding Gita responsive image"
+         width="500">
+
+
+    <!-- 11. Complete Image Tag -->
+    <h2>11. Complete Image Tag</h2>
+
+    <img src="../images/codinggita_800x800.png"
+         alt="Coding Gita"
+         width="400"
+         height="300"
+         loading="lazy"
+         title="Click to view full size"
+         srcset="../images/CodingGita_400x400.png 400w,
+                 ../images/codinggita_800x800.png 800w">
+
+
+    <!-- 12. Two Images Side by Side -->
+    <h2>12. Two Images Side by Side</h2>
+
+    <img src="../images/logo.png"
+         alt="Company logo"
+         width="250"
+         loading="eager">
+
+    <img src="../images/cg img.png"
+         alt="Coding Gita product image"
+         width="250"
+         loading="lazy">
+
+</body>
+
+</html>
